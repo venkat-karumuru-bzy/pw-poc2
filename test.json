@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "project": {
+            "key": "QPI"
+        },
+        "description" : "Automated Test Sample Test Case-1",
+        "components" : "component 1",
+        "customfield_12317" : "System testing",
+        "customfield_11602" : "N/A",
+        "customfield_11937" : "Digital Business Unit"
+        
+    }
+}

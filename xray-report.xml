@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.706042999982834">
+<testsuite name="example.spec.ts" timestamp="1661428613390" hostname="" tests="1" failures="0" skipped="0" time="2.538" errors="0">
+<testcase name="homepage has Playwright in title and get started link linking to the intro page" classname="[chromium] › example.spec.ts:3:1 › homepage has Playwright in title and get started link linking to the intro page" time="2.538">
+<properties>
+<property name="Xray_testrun_evidence">
+</property>
+</properties>
+</testcase>
+</testsuite>
+</testsuites>
