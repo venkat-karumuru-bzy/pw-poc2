@@ -9,7 +9,7 @@
         "summary" : "Test Automation Execution for junit Execution",
         "description" : "This is the Test Exec Description.",
 		"customfield_12319": {
-            "key": "Functional"
+            "value": "Functional"
         }
     },
     "xrayFields": {
