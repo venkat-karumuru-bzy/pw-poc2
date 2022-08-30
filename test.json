@@ -11,15 +11,16 @@
             }
         ],
         "customfield_12317": [{
-                "key": "Unit testing"
-
-            }],
-         "customfield_11602": [{
-                "key": "N/A"
-            }],               
-         "customfield_11937": [{
-                "key": "Digital Business Unit"
-            }]
-    
-    }
+                "key": "Unit testing"
+            }
+        ],
+         "customfield_11602": [{
+                "key": "N/A"
+            }
+         ],               
+         "customfield_11937": [{
+                "key": "Digital Business Unit"
+            }
+         ]
+        }
 }
