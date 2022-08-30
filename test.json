@@ -10,15 +10,16 @@
                 "name": "component 1"
             }
         ],
-        "customfield_12317": {
-            "value": "System testing"
-        },
-        "customfield_11602": {
-            "value": "N/A"
-        },               
-        "customfield_11937": {
-            "value": "Digital Business Unit"
-        }
+        "customfield_12317": [{
+                "key": "Unit testing"
+
+            }],
+         "customfield_11602": [{
+                "key": "N/A"
+            }],               
+         "customfield_11937": [{
+                "key": "Digital Business Unit"
+            }]
     
     }
 }
