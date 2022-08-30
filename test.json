@@ -1,26 +1,27 @@
 {
-    "fields": {
-        "project": {
-            "key": "QPI"
-        },
-        "description" : "Automated Test Sample Test Case-1",
-        
-        "components" : [
-            {
-                "name": "component 1"
-            }
-        ],
-        "customfield_12317": [{
-                "key": "Unit testing"
-            }
-        ],
-         "customfield_11602": [{
-                "key": "N/A"
-            }
-         ],               
-         "customfield_11937": [{
-                "key": "Digital Business Unit"
-            }
-         ]
-        }
+  "fields": {
+    "project": {
+      "key": "QPI"
+    },
+    "description": "Automated Test Sample Test Case-1",
+    "components": [
+      {
+        "name": "component 1"
+      }
+    ],
+    "customFields": [
+      {
+        "id": "customfield_12317",
+        "value": "Unit testing"
+      },
+      {
+        "id": "customfield_11602",
+        "value": "N/A"
+      },
+      {
+        "id": "customfield_11937",
+        "value": "Digital Business Unit"
+      }
+    ]
+  }
 }
