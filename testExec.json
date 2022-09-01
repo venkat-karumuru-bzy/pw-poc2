@@ -1,18 +1,15 @@
 {
     "fields": {
         "project": {
-            "key": "QPI"
+            "key": "CCI"
         },
         "issuetype": {
             "name": "Test Execution"
         },
         "summary" : "Test Automation Execution for junit Execution",
-        "description" : "This is the Test Exec Description.",
-		"customfield_12319": {
-            "value": "Functional"
-        }
-    },
+        "description" : "This is the Test Exec Description."
+	},
     "xrayFields": {
-        "testPlanKey": "QPI-441"
+        "testPlanKey": "CCI-1"
     }
 }
