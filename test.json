@@ -3,7 +3,20 @@
     "project": {
       "key": "QPI"
     },
-    "description": "Automated Test Sample Test Case-1"
-    
-  }
+    "description": {
+            "version": 1,
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "customized Test Issue creation-19"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 }
