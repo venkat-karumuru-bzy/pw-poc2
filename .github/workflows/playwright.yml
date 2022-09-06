@@ -34,7 +34,7 @@ jobs:
         echo ::set-output name=XRAY_TOKEN::$(curl -H "Content-Type: application/json" -X POST --data "{ \"client_id\": \"$CLIENT_ID\",\"client_secret\": \"$CLIENT_SECRET\" }" https://xray.cloud.getxray.app/api/v2/authenticate| tr -d '"')
     - name: Submit Test results to Xray-1
       run: 'curl -H "Content-Type: text/xml" -X POST -H "Authorization: Bearer ${{ steps.xray-token.outputs.XRAY_TOKEN }}" --data @"xray-report.xml" https://xray.cloud.getxray.app/api/v2/import/execution/junit?projectKey=CCI&testPlanKey=CCI-1'
-    #- name: Submit Multipart Test results to Xray-2
-     # run: 'curl -H "Content-Type: multipart/form-data" -X POST -F info=@testExec.json -F results=@xray-report.xml -F testInfo=@test.json -H "Authorization: Bearer ${{ steps.xray-token.outputs.XRAY_TOKEN }}" https://xray.cloud.getxray.app/api/v1/import/execution/junit/multipart'
+    - name: Submit Multipart Test results to Xray-2
+      run: 'curl -H "Content-Type: multipart/form-data" -X POST -F info=@testExec.json -F results=@xray-report.xml -F testInfo=@test.json -H "Authorization: Bearer ${{ steps.xray-token.outputs.XRAY_TOKEN }}" https://xray.cloud.getxray.app/api/v2/import/execution/junit/multipart'
      
     
