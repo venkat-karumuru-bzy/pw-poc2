@@ -6,7 +6,7 @@
         "issuetype": {
             "name": "Test Execution"
         },
-        "summary" : "Test Automation Execution for junit Execution",
+        "summary" : "Test Automation Execution for junit Test Execution Results",
         "description" : "This is the Test Exec Description."
 	},
     "xrayFields": {
