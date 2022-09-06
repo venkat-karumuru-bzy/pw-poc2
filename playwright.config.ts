@@ -65,8 +65,7 @@ const xrayOptions = {
       },
     },
 
-    /* Targeting for only Chrome.
-    {
+     {
       name: 'firefox',
       use: {
         ...devices['Desktop Firefox'],
@@ -79,7 +78,7 @@ const xrayOptions = {
         ...devices['Desktop Safari'],
       },
     },
-     */
+     
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
