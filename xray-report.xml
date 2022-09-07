@@ -1,18 +1,18 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="26.073048000000416">
-<testsuite name="bzydotcom.spec.ts" timestamp="1662565061983" hostname="" tests="3" failures="0" skipped="0" time="25.967" errors="0">
-<testcase name="Open Beazley.com Homepage and title validate and Who we are links" classname="[chromium] › bzydotcom.spec.ts:3:1 › Open Beazley.com Homepage and title validate and Who we are links" time="7.528">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="25.780153000000865">
+<testsuite name="bzydotcom.spec.ts" timestamp="1662566345278" hostname="" tests="3" failures="0" skipped="0" time="22.016" errors="0">
+<testcase name="Open Beazley.com Homepage and title validate and Who we are links" classname="[chromium] › bzydotcom.spec.ts:3:1 › Open Beazley.com Homepage and title validate and Who we are links" time="8.23">
 <properties>
 <property name="Xray_testrun_evidence">
 </property>
 </properties>
 </testcase>
-<testcase name="Navaigates to Insights and Claims " classname="[chromium] › bzydotcom.spec.ts:18:1 › Navaigates to Insights and Claims " time="14.059">
+<testcase name="Navaigates to Insights and Claims " classname="[chromium] › bzydotcom.spec.ts:18:1 › Navaigates to Insights and Claims " time="9.07">
 <properties>
 <property name="Xray_testrun_evidence">
 </property>
 </properties>
 </testcase>
-<testcase name="Select London Market and Navigates to Other Pages " classname="[chromium] › bzydotcom.spec.ts:39:1 › Select London Market and Navigates to Other Pages " time="4.38">
+<testcase name="Select London Market and Navigates to Other Pages " classname="[chromium] › bzydotcom.spec.ts:39:1 › Select London Market and Navigates to Other Pages " time="4.716">
 <properties>
 <property name="Xray_testrun_evidence">
 </property>
