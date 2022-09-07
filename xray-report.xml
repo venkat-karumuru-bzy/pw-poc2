@@ -1,18 +1,18 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="25.780153000000865">
-<testsuite name="bzydotcom.spec.ts" timestamp="1662566345278" hostname="" tests="3" failures="0" skipped="0" time="22.016" errors="0">
-<testcase name="Open Beazley.com Homepage and title validate and Who we are links" classname="[chromium] › bzydotcom.spec.ts:3:1 › Open Beazley.com Homepage and title validate and Who we are links" time="8.23">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="19.29311600000039">
+<testsuite name="example.spec.ts" timestamp="1662567001726" hostname="" tests="3" failures="0" skipped="0" time="11.436" errors="0">
+<testcase name="homepage has Playwright in title and get started link linking to the intro page-1" classname="[chromium] › example.spec.ts:3:1 › homepage has Playwright in title and get started link linking to the intro page-1" time="5.201">
 <properties>
 <property name="Xray_testrun_evidence">
 </property>
 </properties>
 </testcase>
-<testcase name="Navaigates to Insights and Claims " classname="[chromium] › bzydotcom.spec.ts:18:1 › Navaigates to Insights and Claims " time="9.07">
+<testcase name="homepage has Playwright in title Page Home and get started link linking to the intro page-1" classname="[chromium] › example.spec.ts:22:1 › homepage has Playwright in title Page Home and get started link linking to the intro page-1" time="3.984">
 <properties>
 <property name="Xray_testrun_evidence">
 </property>
 </properties>
 </testcase>
-<testcase name="Select London Market and Navigates to Other Pages " classname="[chromium] › bzydotcom.spec.ts:39:1 › Select London Market and Navigates to Other Pages " time="4.716">
+<testcase name="homepage has Playwright in title Page and get started link linking to the intro page-1" classname="[chromium] › example.spec.ts:41:1 › homepage has Playwright in title Page and get started link linking to the intro page-1" time="2.251">
 <properties>
 <property name="Xray_testrun_evidence">
 </property>
