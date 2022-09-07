@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('TestCase:1 --> Open Beazley.com Homepage and title validate and Who we are links', async ({ page }) => {
+test('Open Beazley.com Homepage and title validate and Who we are links', async ({ page }) => {
   
   await page.goto('https://www.beazley.com/');
 
@@ -15,7 +15,7 @@ test('TestCase:1 --> Open Beazley.com Homepage and title validate and Who we are
 
 });
 
-test('TestCase:2 --> Navaigates to Insights and Claims ', async ({ page }) => {
+test('Navaigates to Insights and Claims ', async ({ page }) => {
   
     await page.goto('https://www.beazley.com/');
 
@@ -36,7 +36,7 @@ test('TestCase:2 --> Navaigates to Insights and Claims ', async ({ page }) => {
   });
 
   
-test('TestCase:3 --> Select London Market and Navigates to Other Pages ', async ({ page }) => {
+test('Select London Market and Navigates to Other Pages ', async ({ page }) => {
   
     await page.goto('https://www.beazley.com/');
 
